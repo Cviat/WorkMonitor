@@ -21,10 +21,17 @@ g++ client.cpp -o WorkMonitor -lws2_32 -lgdi32 -mwindows
 
 ### Сервер
 
- -Создать виртуальное окружение: python -m venv venv
- -Активировать окружение: .\venv\Scripts\activate
- -Установить зависимости: pip install -r requirements.txt
- -Выполнить миграции: python manage.py migrate
- -Запустить сервер: python manage.py runserver
+1. Создать виртуальное окружение:
+python -m venv venv
+2. Активировать окружение:
+.\venv\Scripts\activate
+3. Установить зависимости:
+pip install -r requirements.txt
+4. Выполнить миграции:
+python manage.py migrate
+5. Запустить сервер:
+python manage.py runserver
+
+
 
 
